@@ -31,7 +31,7 @@ RUN cd /home/entando \
 -Dversion=1.0-SNAPSHOT \
 -Dpackage=org.entando
  
-WORKDIR /home/entando/inspinia-bpm
+WORKDIR /home/entando/web
 
 CMD ["mvn", "clean", "install", "-DskipTests", "jetty:run"]
 EXPOSE 8080
